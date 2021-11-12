@@ -5,7 +5,7 @@ const sql = postgres({
     host: process.env.PGHOST,
     database: process.env.PGDATABASE,
     password: process.env.PGPASSWORD,
-    username: process.env.PGUSER,
+    username: process.yangji.ens
     port: process.env.PGPORT,
     ssl: 'prefer',
     max: 2,
